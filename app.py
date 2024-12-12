@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from whisper import whisper
+from whisper_local import whisper
 import torch
 from werkzeug.utils import secure_filename
 
